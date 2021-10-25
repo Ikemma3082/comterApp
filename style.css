@@ -1,0 +1,111 @@
+/* Default / Reset */
+:root{
+    --white: #ffffff;
+    --black: #000;
+    --red: rgb(194, 44, 69);
+    --dark: #121416;
+    --light-red: #ff6f69;
+    --gray: #ddd;
+    --light-gray: #ccc;
+    --light-blue: #005490;
+    --dark-gray: #222831;
+    --light-black: #1c2b2d;
+}
+body{
+    font-family: sans-serif;
+  
+}
+.html{
+    font-size: 10px;
+}
+.alertplay{
+    display: none;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* overflow: hidden; */
+    overflow: hidden;
+}
+.main{
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+.wrapper{
+    font-family:  'roboto', sans-serif;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+#widrawal{
+    font-family:  'roboto', sans-serif;
+}
+.container{
+margin-top: 1em;
+}
+.test{
+    width: 90%;
+    outline: none;
+    padding: 0 1em;
+    border: none;
+    border-bottom: 1px solid var(--light-blue);
+    background: var(--light-gray);
+    margin: 1em;
+    text-transform: uppercase;
+    color: var(--black);
+    font-size: 1.3em;
+}
+.fa-money-check-alt{
+    margin: 0 10px;
+  margin-top: 5px;
+}
+p{
+   margin: 3em 1em;
+   text-transform: uppercase;
+   font-weight: 700;
+}
+.alert::first-letter{
+    text-transform: uppercase;
+}
+.buttons > *{
+    margin: 0 1em;
+    padding: 0.5em 1em;
+    border-radius: 0;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.buttons{
+    margin-top: 1em;
+    ]
+}
+.buttons > .reset{
+    background: transparent;
+    color: black;
+}
+.buttons > .subtract{
+    background: var(--red);
+    outline: none;
+    border: none;
+}
+h1{
+ margin-top: 0.5em;
+}
+.nested{
+    border: 1px solid var(--light-blue);
+    border-radius: 3px;
+  box-shadow: 0px 3px 30px var(--light-blue);
+  background-color: var(--light-gray);
+  margin-bottom: 1em;
+}
+.constant,
+.count{
+    font-size: 4em;
+    font-family:  'roboto', sans-serif;
+}
+

@@ -1,0 +1,9 @@
+/* mobile view and tablet view */
+@media screen and (max-width: 480px){
+    html{
+        font-size: 9px;
+    }
+.test{
+    font-size: 13px;
+}
+}
