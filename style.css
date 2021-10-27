@@ -18,14 +18,10 @@ body{
 .html{
     font-size: 10px;
 }
-.alertplay{
-    display: none;
-}
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    /* overflow: hidden; */
     overflow: hidden;
 }
 .main{
@@ -82,16 +78,29 @@ p{
 }
 .buttons{
     margin-top: 1em;
-    ]
+    border-radius: 3px;
 }
 .buttons > .reset{
     background: transparent;
     color: black;
+    border-radius: 5px;
+    border: 1px solid var(--light-black);
 }
 .buttons > .subtract{
     background: var(--red);
+    color: var(--white);
     outline: none;
     border: none;
+    border-radius: 5px;
+}
+.buttons > .add{
+    border-radius: 5px;
+}
+h1{
+    text-transform: capitalize;
+}
+ .icons{
+    font-size: 1.2em;
 }
 h1{
  margin-top: 0.5em;
@@ -99,7 +108,7 @@ h1{
 .nested{
     border: 1px solid var(--light-blue);
     border-radius: 3px;
-  box-shadow: 0px 3px 30px var(--light-blue);
+  box-shadow: 0px 3px 15px var(--dark-gray);
   background-color: var(--light-gray);
   margin-bottom: 1em;
 }

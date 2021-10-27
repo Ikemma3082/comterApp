@@ -7,20 +7,15 @@ const btn = document.querySelector(".buttons");
 btn.addEventListener("click", (e) => {
     if(e.target.classList.contains("add"))
     count.innerHTML++;
-    setColor()
-});
-
-btn.addEventListener("click", (e) => {
-    if(e.target.classList.contains("reset"))
-    count.innerHTML = 0;
-    setColor()
-});
-
-btn.addEventListener("click", (e) => {
+    setColor();
     if(e.target.classList.contains("subtract"))
     count.innerHTML--;
-    setColor()
+    setColor();
+    if(e.target.classList.contains("reset"))
+    count.innerHTML = 0;
+    setColor();
 });
+
 
 
 function setColor() {
